@@ -1,0 +1,89 @@
+.App {
+  min-height: 100vh;
+  background-color: #F2F2F2;
+}
+
+/* Common styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #7765DA;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #5767D0;
+}
+
+.btn-secondary {
+  background-color: #6E6E6E;
+  color: white;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #F2F2F2;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #7765DA;
+}
+
+/* Role selection styles */
+.role-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 30px;
+}
+
+.role-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+}
+
+.role-card h2 {
+  color: #7765DA;
+  margin-bottom: 15px;
+}
+
+.role-card p {
+  color: #6E6E6E;
+  line-height: 1.6;
+}
