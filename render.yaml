@@ -19,4 +19,4 @@ services:
         fromService:
           type: web
           name: polling-backend
-          property: url
+          property: port
