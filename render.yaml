@@ -15,7 +15,7 @@ services:
     buildCommand: |
       cd frontend
       npm install
-      ./node_modules/.bin/vite build
+      ./node_modules/.bin/vite build    # ← Direct command, no npm run
     staticPublishPath: ./frontend/dist
     envVars:
       - key: VITE_BACKEND_URL
